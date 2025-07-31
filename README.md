@@ -12,31 +12,53 @@ This project visualizes and analyzes energy consumption data in Indian household
 - `streamlit`
 - `joblib`
 
-##1. 📁 Project Structure
+## 1. 📁 Project Structure
 
+```
 Household_energy_consumption/
-│
-├── app.py                    # Main Streamlit app
-├── energy_data_india_*.csv   # Dataset (replace * with actual filename)
-├── energy_predictor.pkl      # Trained ML model for prediction
-├── requirements.txt          # Python dependencies
-└── env/                      # Virtual environment (excluded from repo)
+├── app.py # Main Streamlit app
+├── energy_data_india_*.csv # Dataset (replace * with actual filename)
+├── energy_predictor.pkl # Trained ML model for prediction
+├── requirements.txt # Python dependencies
+└── env/ # Virtual environment (excluded from repo)
+```
 
-## 🖥️ Installation & Running the App
+## 2. 🖥️ Installation & Running the App
 
-### 1. Clone the Repository
-git clone https://github.com/your-username/Household_energy_consumption.git
+### 2.1 Clone the Repository
+
+```bash
+git clone https://github.com/Niharika-2830/Household_energy_consumption.git
 cd Household_energy_consumption
+```
 
-##2. Create and Activate a Virtual Environment (Optional but recommended)
+### 2.2 Create and Activate a Virtual Environment (Optional but recommended)
+
+```bash
 python -m venv env
-### Windows
+```
+### Activating the Virtual Environment
+
+On Windows
+
+```bash
 env\Scripts\activate
-### macOS/Linux
+```
+
+On macOS/Linux
+
+```bash
 source env/bin/activate
+```
 
-##3. Install Dependencies
+### 2.3 Install Dependencies
+
+```bash
 pip install -r requirements.txt
+```
 
-##4. Run the Streamlit App
+### 2.4 Run the Streamlit App
+
+```bash
 streamlit run app.py
+```
