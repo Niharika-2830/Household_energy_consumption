@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns 
 # Step 1: Load dataset
 # Load dataset
-df = pd.read_csv(r"C:\Users\NIHARIKA\Desktop\My projects\IoT Project(31-07-2025)\energy_data_india_coYOUOMGWA.csv")
+df = pd.read_csv("energy_data_india_coYOUOMGWA")
 
 st.title("Energy Dashboard for Housing Complex")
 
